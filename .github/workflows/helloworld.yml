@@ -19,7 +19,7 @@ jobs:
   build:
     name: Build
     # The type of runner that the job will run on
-    runs-on: ubuntu-ubuntu-18.04
+    runs-on: ubuntu-18.04
     strategy: 
       matrix:
         node_version: [10,12]
