@@ -36,9 +36,9 @@ jobs:
           version: ${{ matrix.node_version }}
 
       # Runs a set of commands using the runners shell
-      - name: yarn install, yarn lint, yarn test, yarn build
+      - name: mpn install, mpn lint, mpn test, mpn build
         run: 
-          yarn install
-          yarn lint
-          yarn test
-          yarn build
+          mpn install
+          mpn lint
+          mpn test
+          mpn build
